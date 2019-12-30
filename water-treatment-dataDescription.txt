@@ -1,0 +1,197 @@
+1. Title: Faults in a urban waste water treatment plant
+
+2. Relevant Information:
+
+    This dataset comes from the daily measures of sensors in a urban waste 
+  water treatment plant. The objective is to classify the operational
+  state of the plant in order to predict faults through the state 
+  variables of the plant at each of the stages of the treatment process. 
+  This domain has been stated as an ill-structured domain. 
+   
+  
+3. Number of instances: 527
+
+4. Number of Attributes: 38
+
+    There are some missing values.
+
+5. Attribute Information:
+
+ All attributes are numeric and continuous
+
+Index   Attrib.    
+ 1  Q-E        (input flow to plant)  
+ 2  ZN-E       (input Zinc to plant)
+ 3  PH-E       (input pH to plant) 
+ 4  DBO-E      (input Biological demand of oxygen to plant) 
+ 5  DQO-E      (input chemical demand of oxygen to plant)
+ 6  SS-E       (input suspended solids to plant)  
+ 7  SSV-E      (input volatile supended solids to plant)
+ 8  SED-E      (input sediments to plant) 
+ 9  COND-E     (input conductivity to plant) 
+10  PH-P       (input pH to primary settler)
+11  DBO-P      (input Biological demand of oxygen to primary settler)
+12  SS-P       (input suspended solids to primary settler)
+13  SSV-P      (input volatile supended solids to primary settler)
+14  SED-P      (input sediments to primary settler) 
+15  COND-P     (input conductivity to primary settler)
+16  PH-D       (input pH to secondary settler) 
+17  DBO-D      (input Biological demand of oxygen to secondary settler)
+18  DQO-D      (input chemical demand of oxygen to secondary settler)
+19  SS-D       (input suspended solids to secondary settler)
+20  SSV-D      (input volatile supended solids to secondary settler)
+21  SED-D      (input sediments to secondary settler)  
+22  COND-D     (input conductivity to secondary settler) 
+23  PH-S       (output pH)   
+24  DBO-S      (output Biological demand of oxygen)
+25  DQO-S      (output chemical demand of oxygen)
+26  SS-S       (output suspended solids)
+27  SSV-S      (output volatile supended solids) 
+28  SED-S      (output sediments) 
+29  COND-S     (output conductivity)
+30  RD-DBO-P   (performance input Biological demand of oxygen in primary settler)
+31  RD-SS-P    (performance input suspended solids to primary settler)
+32  RD-SED-P   (performance input sediments to primary settler)
+33  RD-DBO-S   (performance input Biological demand of oxygen to secondary settler)
+34  RD-DQO-S   (performance input chemical demand of oxygen to secondary settler)
+35  RD-DBO-G   (global performance input Biological demand of oxygen)
+36  RD-DQO-G   (global performance input chemical demand of oxygen)
+37  RD-SS-G    (global performance input suspended solids) 
+38  RD-SED-G   (global performance input sediments)
+
+
+-- Statistics:
+ 
+ N.  Attrib.     min      max       mean      st-dev
+ 1  Q-E        10000    60081     37226.56  6571.46   
+ 2  ZN-E           0.1     33.5       2.36     2.74   
+ 3  PH-E           6.9      8.7       7.81     0.24   
+ 4  DBO-E         31      438       188.71    60.69   
+ 5  DQO-E         81      941       406.89   119.67   
+ 6  SS-E          98     2008       227.44   135.81   
+ 7  SSV-E         13.2     85.0      61.39    12.28   
+ 8  SED-E          0.4     36         4.59     2.67   
+ 9  COND-E       651     3230      1478.62   394.89   
+10  PH-P           7.3      8.5       7.83     0.22   
+11  DBO-P         32      517       206.20    71.92   
+12  SS-P         104     1692       253.95   147.45   
+13  SSV-P          7.1     93.5      60.37    12.26   
+14  SED-P          1.0     46.0       5.03     3.27   
+15  COND-P       646     3170      1496.03   402.58   
+16  PH-D           7.1      8.4       7.81     0.19   
+17  DBO-D         26      285       122.34    36.02   
+18  DQO-D         80      511       274.04    73.48   
+19  SS-D          49      244        94.22    23.94   
+20  SSV-D         20.2    100        72.96    10.34   
+21  SED-D          0.0      3.5       0.41     0.37   
+22  COND-D        85     3690      1490.56   399.99   
+23  PH-S           7.0      9.7       7.70     0.18   
+24  DBO-S          3      320        19.98    17.20   
+25  DQO-S          9      350        87.29    38.35   
+26  SS-S           6      238        22.23    16.25   
+27  SSV-S         29.2    100        80.15     9.00   
+28  SED-S          0.0      3.5       0.03     0.19   
+29  COND-S       683     3950      1494.81   387.53   
+30  RD-DBO-P       0.6     79.1      39.08    13.89   
+31  RD-SS-P        5.3     96.1      58.51    12.75   
+32  RD-SED-P       7.7    100        90.55     8.71   
+33  RD-DBO-S       8.2     94.7      83.44     8.4    
+34  RD-DQO-S       1.4     96.8      67.67    11.61   
+35  RD-DBO-G      19.6     97        89.01     6.78   
+36  RD-DQO-G      19.2     98.1      77.85     8.67   
+37  RD-SS-G       10.3     99.4      88.96     8.15   
+38  RD-SED-G      36.4    100        99.08     4.32   
+
+
+6. Missing Attribute Values: 
+
+ N. Attrib.   N. of Missings
+ 1  Q-E:	18  
+ 2  ZN-E:	 3
+ 3  PH-E:	 0
+ 4  DBO-E:	23
+ 5  DQO-E:	 6
+ 6  SS-E:	 1
+ 7  SSV-E:	11
+ 8  SED-E:	25
+ 9  COND-E:	 0
+10  PH-P:	 0
+11  DBO-P:	40
+12  SS-P:	 0
+13  SSV-P:	11
+14  SED-P:	24
+15  COND-P:	 0
+16  PH-D:	 0
+17  DBO-D:	28
+18  DQO-D:	 9
+19  SS-D:	 2
+20  SSV-D:	13
+21  SED-D:	25
+22  COND-D:	 0
+23  PH-S:	 1
+24  DBO-S:	23
+25  DQO-S:	18
+26  SS-S:	 5
+27  SSV-S:      17
+28  SED-S:      28
+29  COND-S:	 1
+30  RD-DBO-P:   62
+31  RD-SS-P:     4
+32  RD-SED-P:   27
+33  RD-DBO-S:   40
+34  RD-DQO-S:   26
+35  RD-DBO-G:   36
+36  RD-DQO-G:   25
+37  RD-SS-G:     8
+38  RD-SSED-G:  31
+
+
+
+-- Comments to the data file:
+   
+    The first element of each line is the day of the data; the rest are the attribute values
+
+(1) normalization
+
+The range of 38 features (attributes) are very different. You 
+ need to first normalize each feature. Then you can do k-means clustering.
+ For example for the 1st attribute:
+ The statistics is  
+ N.  Attrib.     min      max       mean      st-dev
+ 1  Q-E        10000    60081     37226.56  6571.46   
+
+So for the 527 instances of this attribute ai, 1<=i<=527
+the normalized result is : normalized(ai) = (ai-min)/(max-min)
+max = 60081, min = 10000
+other attributes are similar.
+Of course, you can use other normalized algorithms.
+
+(2) missing values
+
+There are some missing values in each attribute.
+You have to process these missing values.
+One method is to simply replace the missing value by the mean of this attribute.
+However, there are many other methods. You can choose as you like and work for 
+this project.
+
+(3) the clustering result specification
+
+There are 527 data samples; thus, there are 527 lines in the data file.
+Each line is indicated by the first element which is the day of the data.
+in K-Means implementation, just ignore this information.
+In your output file, you must use ASCII file. You must have the 527 lines in this file where each line follows the same order of the 527 samples given in the data file.
+Each line begins with the data sample index line given in the original data file, then followed with a space, and then followed with the cluster index number.
+For example, assume that there are 3 clusters. Number the cluster index in the order of the least data sample index number in each cluster from the smallest to the largest. In this example, if the least data sample index numbers for the three clusters are 1, 3, and 5, respectively, then the first 10 lines of your output file should read something like:
+1 1
+2 1
+3 2
+4 1
+5 3
+6 2
+7 2 
+8 1
+9 3
+10 2
+and similarly for the rest of the 527 lines in your output file.
+
+Finally, turn in a readme file explaining the source code name, the environment, and the output file name as well as how to run your code.
